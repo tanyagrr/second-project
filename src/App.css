@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    background-color: #13141b;
+    --text-color1: #ffffff;
+    --text-color2: #eeeef1;
+    --text-color3: #13141b;
+    --background-color1: #13141b;
+    --background-color2: #f6f6f8;
+    font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin-left: -2rem;
+}
+
+ul {
+    display: flex; 
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-el, .login, .contact-sales {
+    color: var(--text-color2);
+    padding: .5rem 1rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--background-color1);
+    border: none;
+    font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contact-sales {
+    border: 1px #eeeef1 solid;
+    border-radius: 0.25rem;
+    margin: 0 .5rem;
+
+}
+
+.get-started {
+    background-color: var(--background-color2);
+    color: var(--text-color3);
+    padding: .5rem 1rem;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0.25rem;
+
+}
