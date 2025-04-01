@@ -8,7 +8,7 @@
     --text-color4: #e3e4e8;
     --background-color1: #13141b;
     --background-color2: #f6f6f8;
-    --background-color3: #1b1d27;
+    --background-color3: #252837;
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -81,6 +81,8 @@ li {
 /* MAIN */
 
 .section1 {
+    display: flex;
+    justify-content: space-between;
     margin-top: 3rem;
     max-width: 1185px;
     width: 100%;
@@ -147,4 +149,21 @@ li {
     border-radius: 0.5rem;
     font-size: 15px;
     font-weight: 600;
+}
+
+.copy {
+    padding-left: .7rem;
+}
+
+.image {
+    display: flex;
+    justify-content: end;
+}
+
+.pic {
+    width: 820px;
+    height: 475px;
+    position: relative;
+    left: 200px;
+    overflow: hidden;
 }
