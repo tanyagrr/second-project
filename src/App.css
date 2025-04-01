@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
     background-color: #13141b;
     --text-color1: #ffffff;
     --text-color2: #eeeef1;
     --text-color3: #13141b;
+    --text-color4: #e3e4e8;
     --background-color1: #13141b;
     --background-color2: #f6f6f8;
+    --background-color3: #1b1d27;
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
+/* HEADER */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 83%;
-    margin: 0 auto;
+    max-width: 1185px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.header-left {
+.header-left, .header-right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,5 +76,75 @@ li {
     font-size: 13px;
     font-weight: 600;
     border-radius: 0.25rem;
+}
 
+/* MAIN */
+
+.section1 {
+    margin-top: 3rem;
+    max-width: 1185px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1, .p1 {
+    color: var(--text-color1);
+}
+
+.heading1 {
+    font-size: 4.5rem;
+    font-weight: 425;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.p1 {
+    font-size: 1.5rem;
+}
+
+.start-links {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.start-building {
+    background-color: var(--background-color2);
+    color: var(--text-color3);
+    padding: .8rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+.book-demo {
+    background-color: var(--background-color3);
+    color: var(--text-color2);
+    padding: .8rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+.copy-button {
+    display: inline-flex;
+    justify-content: start;
+    color: var(--text-color4);
+    padding: .8rem 1.5rem;
+    border: 1px var(--background-color3) solid;
+    width: fit-content;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
 }

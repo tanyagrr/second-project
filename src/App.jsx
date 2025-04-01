@@ -1,12 +1,17 @@
 import "./App.css";
 import Header from "./components/Header";
+import Info1 from "./components/Info1";
 
 function App() {
   return (
     <>
-      <div>
+      <header>
         <Header></Header>
-      </div>
+      </header>
+      <main>
+        <Info1></Info1>
+      </main>
+      <footer></footer>
     </>
   );
 }
