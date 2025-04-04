@@ -35,20 +35,20 @@ function Info1() {
             </span>
           </button>
         </div>
-        <div className="image">
-          <img
-            alt=""
-            className="pic"
-            // width="990px"
-            // height="570px"
-            fetchpriority="high"
-            loading="eager"
-            decoding="async"
-            data-nimg="1"
-            srcset="https://cdn.sanity.io/images/3do82whm/next/a119c468f61ed6d8770a2f5aac5d41d9a3804394-3232x1868.png?w=3840&amp;q=75&amp;fit=clip&amp;auto=format 1x"
-            src="https://cdn.sanity.io/images/3do82whm/next/a119c468f61ed6d8770a2f5aac5d41d9a3804394-3232x1868.png?w=3840&amp;q=75&amp;fit=clip&amp;auto=format"
-          />
-        </div>
+        <img
+          alt=""
+          className="pic"
+          fetchpriority="high"
+          loading="eager"
+          decoding="async"
+          data-nimg="1"
+          srcset="https://cdn.sanity.io/images/3do82whm/next/a119c468f61ed6d8770a2f5aac5d41d9a3804394-3232x1868.png?w=3840&amp;q=75&amp;fit=clip&amp;auto=format 1x"
+          src="https://cdn.sanity.io/images/3do82whm/next/a119c468f61ed6d8770a2f5aac5d41d9a3804394-3232x1868.png?w=3840&amp;q=75&amp;fit=clip&amp;auto=format"
+        />
+      </div>
+      <div className="trusted-by">
+        <p className="trusted-by-text">TRUSTED BY LEADERS AND INNOVATORS</p>
+        <span className="line"></span>
       </div>
     </>
   );
