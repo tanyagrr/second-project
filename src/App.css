@@ -15,6 +15,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* HEADER */
 header {
     display: flex;
@@ -26,7 +30,7 @@ header {
     max-width: 1185px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -.5rem;
+    margin-top: .5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -50,11 +54,29 @@ li {
     list-style-type: none;
 }
 
+.nav-el {
+    border-radius: 0.25rem;
+    transition: background-color .1s ease-in;
+}
+
+.nav-el:hover {
+  background-color: var(--background-color3);
+}
+
 .nav-el, .login, .contact-sales {
     color: var(--text-color2);
-    padding: .5rem 1rem;
+    padding: .5rem .8rem;
     font-size: 13px;
     font-weight: 600;
+}
+
+.login {
+    transition: background-color .1s ease-in;
+    border-radius: 0.25rem;
+}
+
+.login:hover {
+    background-color: var(--background-color3);
 }
 
 .button {
@@ -88,6 +110,7 @@ li {
 .section1 {
     display: grid;
     grid-template-columns: 40rem auto;
+    column-gap: .5rem;
     margin-top: 3rem;
     max-width: 1185px;
     width: 100%;
@@ -143,6 +166,11 @@ li {
     font-size: 15px;
     font-weight: 600;
     border-radius: 0.5rem;
+    transition: background-color .1s ease-in;
+}
+
+.book-demo:hover {
+    background-color: var(--background-color3);
 }
 
 .copy-button {
@@ -156,6 +184,11 @@ li {
     border-radius: 0.5rem;
     font-size: 15px;
     font-weight: 600;
+    transition: background-color .1s ease-in;
+}
+
+.copy-button:hover {
+    background-color: var(--background-color3);
 }
 
 .copy {
@@ -168,7 +201,7 @@ li {
     height: auto;
     position: relative;
     top: 3.5rem;
-    right: 1rem;
+    right: 3.5rem;
 }
 
 .trusted-by {
@@ -196,3 +229,9 @@ li {
     width: 55rem;
     height: .005rem;
 }
+
+.companies-logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+

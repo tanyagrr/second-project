@@ -50,6 +50,7 @@ function Info1() {
         <p className="trusted-by-text">TRUSTED BY LEADERS AND INNOVATORS</p>
         <span className="line"></span>
       </div>
+      <div className="companies-logos"></div>
     </>
   );
 }
