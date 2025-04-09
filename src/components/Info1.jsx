@@ -1,3 +1,5 @@
+import figma from "../assets/logos/Figma.svg";
+
 function Info1() {
   return (
     <>
@@ -50,7 +52,9 @@ function Info1() {
         <p className="trusted-by-text">TRUSTED BY LEADERS AND INNOVATORS</p>
         <span className="line"></span>
       </div>
-      <div className="companies-logos"></div>
+      <div className="companies-logos">
+        <img src={figma} />
+      </div>
     </>
   );
 }

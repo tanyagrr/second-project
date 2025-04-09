@@ -11,6 +11,7 @@
     --background-color2: #f6f6f8;
     --background-color3: #252837;
     --background-color4: #1b1d27;
+    --border-color: #1d1e2a;
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -33,6 +34,7 @@ header {
     margin-top: .5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    border-bottom: var(--border-color) 0.5px solid;
 }
 
 .header-left, .header-right {
@@ -57,6 +59,7 @@ li {
 .nav-el {
     border-radius: 0.25rem;
     transition: background-color .1s ease-in;
+    cursor: pointer;
 }
 
 .nav-el:hover {
@@ -83,6 +86,7 @@ li {
     background-color: var(--background-color1);
     border: none;
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+    white-space: nowrap;
 }
 
 .link {
@@ -185,6 +189,7 @@ li {
     font-size: 15px;
     font-weight: 600;
     transition: background-color .1s ease-in;
+    cursor: pointer;
 }
 
 .copy-button:hover {
@@ -206,6 +211,7 @@ li {
 
 .trusted-by {
     display: flex;
+    justify-content: flex-start;
     gap: .8rem;
     max-width: 1185px;
     width: 100%;
@@ -213,14 +219,18 @@ li {
     margin-right: auto;
     align-items:center;
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
 .trusted-by-text {
+    display: flex;
+    justify-content: flex-start;
     color: var(--text-color5);
     font-size: .8rem;
     font-weight: 450;
     line-height: calc(12 / 9);
     letter-spacing: .01rem;
+    white-space: nowrap;
 }
 
 .line {
@@ -235,3 +245,6 @@ li {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 960px) {
+
+}
