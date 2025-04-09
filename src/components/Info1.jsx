@@ -1,4 +1,4 @@
-import figma from "../assets/logos/Figma.svg";
+import Figma from "../assets/logos/Figma";
 
 function Info1() {
   return (
@@ -53,7 +53,7 @@ function Info1() {
         <span className="line"></span>
       </div>
       <div className="companies-logos">
-        <img src={figma} />
+        <Figma></Figma>
       </div>
     </>
   );

@@ -245,6 +245,10 @@ li {
     flex-wrap: wrap;
 }
 
+/* .st1 {
+    fill: #ffffff;
+} */
+
 @media screen and (max-width: 960px) {
 
 }
