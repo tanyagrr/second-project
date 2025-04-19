@@ -1,4 +1,13 @@
 import Figma from "../assets/logos/Figma";
+import Shopify from "../assets/logos/Shopify";
+import Linear from "../assets/logos/Linear";
+import Skims from "../assets/logos/Skims";
+import Arcteryx from "../assets/logos/Arcteryx";
+import Tecovas from "../assets/logos/Tecovas";
+import Marimekko from "../assets/logos/Marimekko";
+import Brex from "../assets/logos/Brex";
+import LVMH from "../assets/logos/LVMH";
+import Ableton from "../assets/logos/Ableton";
 
 function Info1() {
   return (
@@ -53,7 +62,16 @@ function Info1() {
         <span className="line"></span>
       </div>
       <div className="companies-logos">
-        <Figma></Figma>
+        <Figma style={{ height: "25px" }}></Figma>
+        <Shopify style={{ height: "25px" }}></Shopify>
+        <Linear style={{ height: "25px" }}></Linear>
+        <Skims style={{ height: "25px" }}></Skims>
+        <Arcteryx style={{ height: "25px" }}></Arcteryx>
+        <Tecovas style={{ height: "25px" }}></Tecovas>
+        <Marimekko style={{ height: "25px" }}></Marimekko>
+        <Brex style={{ height: "25px" }}></Brex>
+        <LVMH style={{ height: "25px" }}></LVMH>
+        <Ableton style={{ height: "25px" }}></Ableton>
       </div>
     </>
   );

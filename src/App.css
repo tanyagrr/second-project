@@ -17,7 +17,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -28,7 +28,7 @@ header {
     top: 0;
     background-color: var(--background-color1);
     justify-content: space-between;
-    max-width: 1185px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: .5rem;
@@ -116,12 +116,12 @@ li {
     grid-template-columns: 40rem auto;
     column-gap: .5rem;
     margin-top: 3rem;
-    max-width: 1185px;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2.2rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     padding-right: 1.5rem;
 }
 
@@ -213,7 +213,7 @@ li {
     display: flex;
     justify-content: flex-start;
     gap: .8rem;
-    max-width: 1185px;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -236,18 +236,24 @@ li {
 .line {
     display: flex;
     border-bottom: 1px #252837 solid;
-    width: 55rem;
+    width: 54rem;
     height: .005rem;
 }
 
 .companies-logos {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: .5rem;
+    padding-left: 1.5rem;
 }
 
-/* .st1 {
-    fill: #ffffff;
-} */
 
 @media screen and (max-width: 960px) {
 
