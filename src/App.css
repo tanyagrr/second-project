@@ -243,6 +243,7 @@ li {
 .companies-logos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
@@ -250,8 +251,11 @@ li {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     align-items: center;
-    gap: .5rem;
     padding-left: 1.5rem;
+    row-gap: 2rem;
+    column-gap: 2.5rem;
+    max-height: 80px;
+    overflow: hidden;
 }
 
 

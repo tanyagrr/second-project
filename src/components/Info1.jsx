@@ -8,6 +8,16 @@ import Marimekko from "../assets/logos/Marimekko";
 import Brex from "../assets/logos/Brex";
 import LVMH from "../assets/logos/LVMH";
 import Ableton from "../assets/logos/Ableton";
+import Clerk from "../assets/logos/Clerk";
+import Loom from "../assets/logos/Loom";
+import Tailscale from "../assets/logos/Tailscale";
+import Retool from "../assets/logos/Retool";
+import Elastic from "../assets/logos/Elastic";
+import Pinecone from "../assets/logos/Pinecone";
+import Anthropic from "../assets/logos/Anthropic";
+import Replit from "../assets/logos/Replit";
+import MoMA from "../assets/logos/MoMA";
+import Amplitude from "../assets/logos/Amplitude";
 
 function Info1() {
   return (
@@ -62,16 +72,26 @@ function Info1() {
         <span className="line"></span>
       </div>
       <div className="companies-logos">
-        <Figma style={{ height: "25px" }}></Figma>
-        <Shopify style={{ height: "25px" }}></Shopify>
-        <Linear style={{ height: "25px" }}></Linear>
-        <Skims style={{ height: "25px" }}></Skims>
-        <Arcteryx style={{ height: "25px" }}></Arcteryx>
-        <Tecovas style={{ height: "25px" }}></Tecovas>
-        <Marimekko style={{ height: "25px" }}></Marimekko>
-        <Brex style={{ height: "25px" }}></Brex>
-        <LVMH style={{ height: "25px" }}></LVMH>
-        <Ableton style={{ height: "25px" }}></Ableton>
+        <Figma style={{ height: "24px", width: "50.25px" }}></Figma>
+        <Shopify style={{ height: "24px", width: "70.66px" }}></Shopify>
+        <Linear style={{ height: "24px", width: "64.66px" }}></Linear>
+        <Skims style={{ height: "24px", width: "56px" }}></Skims>
+        <Arcteryx style={{ height: "24px", width: "104.25px" }}></Arcteryx>
+        <Tecovas style={{ height: "24px", width: "96.75px" }}></Tecovas>
+        <Marimekko style={{ height: "24px", width: "129.75px" }}></Marimekko>
+        <Brex style={{ height: "24px", width: "57.75px" }}></Brex>
+        <LVMH style={{ height: "24px", width: "57px" }}></LVMH>
+        <Ableton style={{ height: "24px", width: "88px" }}></Ableton>
+        <Clerk style={{ height: "24px", width: "72.75px" }}></Clerk>
+        <Loom style={{ height: "24px", width: "62.66" }}></Loom>
+        <Tailscale style={{ height: "24px", width: "115.5px" }}></Tailscale>
+        <Retool style={{ height: "24px", width: "78px" }}></Retool>
+        <Elastic style={{ height: "24px", width: "72.95px" }}></Elastic>
+        <Pinecone style={{ height: "24px", width: "91.5px" }}></Pinecone>
+        <Anthropic style={{ height: "24px", width: "93.75px" }}></Anthropic>
+        <Replit style={{ height: "24px", width: "105px" }}></Replit>
+        <MoMA style={{ height: "24px", width: "89.25px" }}></MoMA>
+        <Amplitude style={{ height: "24px", width: "82.66px" }}></Amplitude>
       </div>
     </>
   );
