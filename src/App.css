@@ -12,6 +12,7 @@
     --background-color3: #252837;
     --background-color4: #1b1d27;
     --border-color: #1d1e2a;
+    --border-color2: #252837;
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -130,7 +131,7 @@ li {
     flex-direction: column;
 }
 
-.heading1, .p1 {
+.heading1, .p1, .heading2 {
     color: var(--text-color1);
 }
 
@@ -258,7 +259,102 @@ li {
     overflow: hidden;
 }
 
+.heading2 {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    font-size: 3rem;
+    font-weight: 425;
+    line-height: 1.1;
+    margin-bottom: 0;
+    letter-spacing: -0.05rem;
+}
 
-@media screen and (max-width: 960px) {
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1.5rem;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+}
 
+.feature {
+    border: 1px var(--border-color2) solid;
+    border-radius: 1rem;
+    background-color: var(--background-color4);
+    text-decoration: none;
+    transition: background-color .15s;
+}
+
+.feature:hover {
+    background-color: transparent;
+}
+
+.feat-text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .4rem;
+}
+
+.feat-text1_1 {
+    color: var(--text-color5);
+    font-size: .8rem;
+    letter-spacing: .025rem;
+    margin-bottom: .5rem;
+}
+
+.feat-text1_2 {
+    color: var(--text-color1);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.feat-text2 {
+    color: var(--text-color1);
+    padding-left: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.feat-text3 {
+    color: var(--text-color5);
+    padding-left: 1.5rem;
+    font-size: .97rem;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: end;
+}
+
+hr {
+    max-width: 1200px;
+    width: 100%;
+    height: .5px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+    background-color: #252837;
+    color: #252837;
+}
+
+
+@media screen and (max-width: 480px) {
+    
 }
