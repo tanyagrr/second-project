@@ -27,6 +27,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 100;
     background-color: var(--background-color1);
     justify-content: space-between;
     max-width: 1200px;
